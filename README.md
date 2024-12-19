@@ -43,6 +43,10 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/pages/b
 ## Error when installing swr
 - Received an error about dependency tree when I tried to install SWR (used for getting data from servers {i think})
 - To resolve this issue, I ran the following code from Vinit Dabhi on StackOverflow (https://stackoverflow.com/questions/64573177/unable-to-resolve-dependency-tree-error-when-installing-npm-packages)
--- npm config set legacy-peer-deps true
--- npm cache clean --force
+- - npm config set legacy-peer-deps true
+- - npm cache clean --force
 - Then ran 'npm i swr'
+
+## Basic navigation
+- Have a basic webpage layout navbar. its going to different pages as expected
+- - Had a strange bug when trying to access the contact page. Not sure why, all i did was change the file and link names and it started working. also restarted npm dev
