@@ -10,16 +10,16 @@ const fetcher = (...args) => fetch(...args).then(res => res.json())
  
 export default function Layout({ children }) {
 
-  const { data, error } = useSWR('/api/hello', fetcher)
+  // const { data, error } = useSWR('/api/hello', fetcher)
  
-  if (error) console.log(`Error - ${error}`);
-  if (!data) console.log('Loading Data');
-  if (data) console.log(`Data - ${data.name}`);
+  // if (error) console.log(`Error - ${error}`);
+  // if (!data) console.log('Loading Data');
+  // if (data) console.log(`Data - ${data.name}`);
 
   return (
     <>
       <Navbar />
-      <main>{children}</main>
+      <main className="pt-16">{children}</main>
       <Footer />
     </>
   )
