@@ -1,12 +1,12 @@
 //Layout of the website
-import useSWR from 'swr'
+//import useSWR from 'swr'
 import Navbar from './navbar'
 import Footer from './footer'
 
 // fetcher is a helper function to make api calls. 
 // Use this to make things cleaner. just copy/paste it.
 // TODO : find a way to hide this in a class adn call as needed?
-const fetcher = (...args) => fetch(...args).then(res => res.json())
+//const fetcher = (...args) => fetch(...args).then(res => res.json())
  
 export default function Layout({ children }) {
 
