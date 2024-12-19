@@ -1,4 +1,4 @@
-
+// navbar component
 
 
 export default function Navbar() {
