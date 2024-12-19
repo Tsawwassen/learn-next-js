@@ -39,4 +39,10 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/pages/building-your-application/deploying) for more details.
 
-test
+# Personal Notes about the project
+## Error when installing swr
+- Received an error about dependency tree when I tried to install SWR (used for getting data from servers {i think})
+- To resolve this issue, I ran the following code from Vinit Dabhi on StackOverflow (https://stackoverflow.com/questions/64573177/unable-to-resolve-dependency-tree-error-when-installing-npm-packages)
+-- npm config set legacy-peer-deps true
+-- npm cache clean --force
+- Then ran 'npm i swr'
