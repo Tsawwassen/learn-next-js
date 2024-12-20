@@ -55,3 +55,6 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/pages/b
 - https://github.com/TailGrids/play-tailwind
 - https://www.tailwindawesome.com/resources/play/demo
 - https://play-tailwind.tailgrids.com/
+--------
+- https://tailus.io/templates/ada/
+- https://tailus.io/preview/ada/
