@@ -50,3 +50,8 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/pages/b
 ## Basic navigation
 - Have a basic webpage layout navbar. its going to different pages as expected
 - - Had a strange bug when trying to access the contact page. Not sure why, all i did was change the file and link names and it started working. also restarted npm dev
+
+## Possible Template for HME Group website
+- https://github.com/TailGrids/play-tailwind
+- https://www.tailwindawesome.com/resources/play/demo
+- https://play-tailwind.tailgrids.com/
